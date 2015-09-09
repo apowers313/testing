@@ -16,5 +16,5 @@ before_install:
   - sudo apt-get install libgnome-keyring-dev
 before_script:
   - npm prune
-deploy:
+after_success:
   - npm run semantic-release
