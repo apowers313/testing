@@ -1,0 +1,27 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "Testing semantic release",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apowers313/testing.git"
+  },
+  "author": "Adam Powers <apowers@ato.ms>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apowers313/testing/issues"
+  },
+  "homepage": "https://github.com/apowers313/testing#readme",
+  "dependencies": {
+    "commitizen": "^1.0.4",
+    "semantic-release": "^4.3.4"
+  },
+  "devDependencies": {
+    "semantic-release-cli": "^1.1.4"
+  }
+}
