@@ -1,4 +1,4 @@
-sudo: false
+sudo: true
 language: node_js
 cache:
   directories:
@@ -13,6 +13,7 @@ node_js:
   - '0.10'
 before_install:
   - npm i -g npm@^2.0.0
+  - sudo apt-get install libgnome-keyring-dev
 before_script:
   - npm prune
   - 'curl -Lo travis_after_all.py https://git.io/vLSON'
