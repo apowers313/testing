@@ -17,11 +17,10 @@
   },
   "homepage": "https://github.com/apowers313/testing#readme",
   "dependencies": {
-    "commitizen": "^1.0.4",
-    "cz-conventional-changelog": "^1.1.0",
-    "semantic-release": "^4.3.4"
   },
   "devDependencies": {
+    "commitizen": "^1.0.4",
+    "cz-conventional-changelog": "^1.1.0",
     "semantic-release-cli": "^1.1.4",
     "semantic-release": "^4.3.4"
   }
